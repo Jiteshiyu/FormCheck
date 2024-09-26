@@ -18,30 +18,25 @@ The Form Validation Project is a web application that demonstrates user registra
 - JavaScript
 
 ## Project Layout
-
+```
 FormCheck/
 │
-
 ├── public/
-
 │   ├── icon.png             # Favicon for the application
-
 │
-
 ├── style.css                # Styles for the form layout and design
-
 ├── app.js                   # JavaScript for form validation functionality
-
 └── index.html               # Main HTML file for the application
+```
 
 ## Installation
 
 To run this project locally, follow these steps:
 
 1. clone the repository:
-
+   ``` bash
    git clone https://github.com/Jiteshiyu/FormCheck.git
-   
+   ```
 2. Navigate to the project directory.
   
 3. Open the `index.html` file in your web browser.
