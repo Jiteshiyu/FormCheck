@@ -42,9 +42,9 @@ To run this project locally, follow these steps:
 3. Open the `index.html` file in your web browser.
 
 ## Form success
-
 ![Form success](https://github.com/user-attachments/assets/3899b698-7df0-4d19-88c1-aa3b37326981)
 
+## Form failure
 ![Form failure](https://github.com/user-attachments/assets/de913a4d-cb80-4dda-81b1-7bfce6de2e43)
 
 ## Usage
