@@ -1,82 +1,80 @@
-/* Reset default margin and padding */
+/* Reset styles */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
 }
 
-/* Body styles */
+/* Body */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f4f4; /* Light background for contrast */
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: #f0f0f0; 
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 
-/* Container styles */
+/* Container */
 .container {
-  max-width: 500px; /* Max width for form */
-  margin: 2rem auto; /* Centered with margin */
-  padding: 2rem;
-  background-color: #fff; /* White background */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-top: 1rem; 
+  padding: 0.7rem; 
+  border-radius: 0.5rem; 
+  background-color: #fff; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
-/* Heading styles */
+/* Heading */
 .heading {
-  text-align: center; /* Center heading */
-  margin-bottom: 1.5rem; /* Space below heading */
+  color: #333; 
+  text-align: center; 
+  font-weight: bold; 
+  margin-bottom: 0.7rem; 
 }
 
-/* Form styles */
-.form {
-  display: flex; /* Flex layout */
-  flex-direction: column; /* Stack elements */
-}
-
-/* Form group styles */
-.form-group {
-  margin-bottom: 1.5rem; /* Space between groups */
-}
-
-/* Label styles */
+/* Label */
 .label {
-  font-weight: bold; /* Bold labels */
-  margin-bottom: 0.5rem; /* Space below label */
+  font-size: 1.2rem; 
+  font-style: italic; 
 }
 
-/* Input styles */
-input {
-  width: 100%; /* Full width */
-  padding: 0.5rem; /* Padding */
-  border: 1px solid #ccc; /* Light border */
-  border-radius: 4px; /* Rounded corners */
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  margin-bottom: 0.5rem; 
+  padding: 0.5rem; 
+  font-size: 1rem; 
+  border: 1px solid #ccc; 
+  border-radius: 0.3rem; 
+  width: 100%; 
 }
 
-/* Button styles */
+/* Buttons */
 .btn {
-  text-align: center; /* Center button */
+  padding: 0.3rem; 
+  text-align: center; 
 }
 
+/* Submit button */
 .submit-btn {
-  background-color: #007bff; /* Button color */
-  color: #fff; /* White text */
-  padding: 0.7rem 1.5rem; /* Padding */
-  border: none; /* No border */
-  border-radius: 4px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor */
+  color: #fff; 
+  background-color: #333; 
+  padding: 0.3rem 2rem; 
+  font-size: 1.2rem; 
+  border: none; 
+  border-radius: 0.5rem; 
+  cursor: pointer; 
 }
 
+/* Submit button hover */
 .submit-btn:hover {
-  background-color: #0056b3; /* Darker shade on hover */
+  color: #f00; 
 }
 
-/* Responsive styles */
-@media (max-width: 600px) {
-  .container {
-    padding: 1rem; /* Adjust padding for smaller screens */
-  }
-
-  .submit-btn {
-    width: 100%; /* Full width on smaller screens */
-  }
+/* Error message */
+.error-msg {
+  color: #f00; 
+  font-size: 1rem; 
+  margin-bottom: 0.5rem; 
 }
