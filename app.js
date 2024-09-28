@@ -6,6 +6,13 @@ form.addEventListener("submit", function (event) {
 
   let isValid = true; // Flag to track form validity
 
+  // Clear previous error messages
+  const errorMsgs = document.querySelectorAll(".error-msg");
+  errorMsgs.forEach((msg) => {
+    msg.textContent = '';
+    msg.style.display = 'none';
+  });
+
   let username = this.querySelector("#username").value.trim();
   let email = this.querySelector("#email").value.trim();
   let password = this.querySelector("#password").value.trim();
