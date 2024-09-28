@@ -1,4 +1,3 @@
-// Select the form element
 let form = document.querySelector(".form");
 
 // Add submit event listener to the form
@@ -7,7 +6,6 @@ form.addEventListener("submit", function (event) {
 
   let isValid = true; // Flag to track form validity
 
-  // Get and trim input values
   let username = this.querySelector("#username").value.trim();
   let email = this.querySelector("#email").value.trim();
   let password = this.querySelector("#password").value.trim();
@@ -58,13 +56,13 @@ form.addEventListener("submit", function (event) {
 // Function to show error messages
 function showError(fieldId, msg) {
   const field = document.getElementById(fieldId);
-  const errorMsg = field.nextElementSibling; // Select the next sibling for the error message
-  errorMsg.textContent = msg; // Set the error message
-  errorMsg.style.display = "block"; // Show the error message
+  const errorMsg = field.nextElementSibling;
+  errorMsg.textContent = msg;
+  errorMsg.style.display = "block";
 }
 
 // Function to validate email format
 function validateEmail(email) {
-  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regex for email validation
-  return re.test(String(email).toLowerCase()); // Test email format
+  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(String(email).toLowerCase());
 }
