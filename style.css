@@ -5,7 +5,7 @@
   box-sizing: border-box; 
 }
 
-/* Body */
+/* Global Styles */
 body {
   font-family: Arial, Helvetica, sans-serif; 
   background-color: #f0f0f0; 
@@ -36,12 +36,14 @@ body {
 .label {
   font-size: 1.2rem; 
   font-style: italic; 
+  margin-bottom: 0.3rem;
 }
 
 /* Input fields */
 input[type="text"],
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="tel"] {
   margin-bottom: 0.5rem; 
   padding: 0.5rem; 
   font-size: 1rem; 
