@@ -1,59 +1,70 @@
+// Select the form element
 let form = document.querySelector(".form");
+
+// Add submit event listener to the form
 form.addEventListener("submit", function (event) {
-  event.preventDefault();
+  event.preventDefault(); // Prevent default form submission
 
-  let isValid = true;
+  let isValid = true; // Flag to track form validity
 
+  // Get and trim input values
   let username = this.querySelector("#username").value.trim();
   let email = this.querySelector("#email").value.trim();
   let password = this.querySelector("#password").value.trim();
   let confirmPassword = this.querySelector("#confirm-password").value.trim();
 
-  if (username == "") {
+  // Validate username
+  if (username === "") {
     showError("username", "*Name is required.");
     isValid = false;
   } else if (username.length < 3) {
-    showError("username", "*Name must be atleast 3 characters.");
+    showError("username", "*At least 3 characters.");
     isValid = false;
   }
 
-  if (email == "") {
+  // Validate email
+  if (email === "") {
     showError("email", "*Email is required.");
     isValid = false;
   } else if (!validateEmail(email)) {
-    showError("email", "*Enter a valid email.");
+    showError("email", "*Invalid email.");
     isValid = false;
   }
 
-  if (password == "") {
+  // Validate password
+  if (password === "") {
     showError("password", "*Password is required.");
     isValid = false;
   } else if (password.length < 6) {
-    showError("password", "*Password must be atleast 6 characters.");
+    showError("password", "*At least 6 characters.");
     isValid = false;
   }
 
-  if (confirmPassword == "") {
+  // Validate confirm password
+  if (confirmPassword === "") {
     showError("confirm-password", "*Confirm Password.");
     isValid = false;
   } else if (confirmPassword !== password) {
-    showError("confirm-password", "*Password do not match.");
+    showError("confirm-password", "*Passwords do not match.");
     isValid = false;
   }
 
+  // If the form is valid, show success message
   if (isValid) {
     alert("Registration Successful");
   }
 });
 
+// Function to show error messages
 function showError(fieldId, msg) {
   const field = document.getElementById(fieldId);
-  const errorMsg = field.nextElementSibling;
-  errorMsg.textContent = msg;
-  errorMsg.style.display = "block";
+  const errorMsg = field.nextElementSibling; // Select the next sibling for the error message
+  errorMsg.textContent = msg; // Set the error message
+  errorMsg.style.display = "block"; // Show the error message
 }
 
+// Function to validate email format
 function validateEmail(email) {
-  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return re.test(String(email).toLowerCase());
+  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regex for email validation
+  return re.test(String(email).toLowerCase()); // Test email format
 }
