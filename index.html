@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form Validation</title>
-    <link rel="icon" type="image" href="./public/icon.png" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <h1 class="heading">Sign up</h1>
-      <form action="/" class="form">
-        <div class="form-group">
-          <label for="username" class="label">Username: </label>
-          <input type="text" placeholder="Enter username" id="username" />
-          <small class="error-msg"></small>
-        </div>
-        <div class="form-group">
-          <label for="email" class="label">Email: </label>
-          <input type="text" placeholder="Enter email" id="email" />
-          <small class="error-msg"></small>
-        </div>
-        <div class="form-group">
-          <label for="password" class="label">Password: </label>
-          <input type="password" placeholder="Enter password" id="password" />
-          <small class="error-msg"></small>
-        </div>
-        <div class="form-group">
-          <label for="confirm-password" class="label">Confirm Password: </label>
-          <input
-            type="password"
-            placeholder="Confirm password"
-            id="confirm-password"
-          />
-          <small class="error-msg"></small>
-        </div>
-        <div class="btn">
-          <button class="submit-btn">Submit</button>
-        </div>
-      </form>
-    </div>
-    <script src="app.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form Validation</title>
+  <link rel="icon" type="image/png" href="./public/icon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="heading">Sign up</h1>
+    <form action="/" class="form" method="post"> <!-- Added method attribute for better form handling -->
+      <!-- Username input -->
+      <div class="form-group">
+        <label for="username" class="label">Username:</label>
+        <input type="text" id="username" placeholder="Enter username" required /> <!-- Added required attribute -->
+        <small class="error-msg"></small>
+      </div>
+
+      <!-- Email input -->
+      <div class="form-group">
+        <label for="email" class="label">Email:</label>
+        <input type="email" id="email" placeholder="Enter email" required /> <!-- Changed type to email and added required attribute -->
+        <small class="error-msg"></small>
+      </div>
+
+      <!-- Password input -->
+      <div class="form-group">
+        <label for="password" class="label">Password:</label>
+        <input type="password" id="password" placeholder="Enter password" required /> <!-- Added required attribute -->
+        <small class="error-msg"></small>
+      </div>
+
+      <!-- Confirm Password input -->
+      <div class="form-group">
+        <label for="confirm-password" class="label">Confirm Password:</label>
+        <input type="password" id="confirm-password" placeholder="Confirm password" required /> <!-- Added required attribute -->
+        <small class="error-msg"></small>
+      </div>
+
+      <!-- Submit button -->
+      <div class="btn">
+        <button type="submit" class="submit-btn">Submit</button> <!-- Added type attribute for clarity -->
+      </div>
+    </form>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
 </html>
