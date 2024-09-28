@@ -1,8 +1,8 @@
-# Form Validation Project
+# Formguard
 
 ## Overview
 
-The Form Validation Project is a web application that demonstrates user registration functionality with client-side validation. This project allows users to sign up by entering their username, email, password, and confirming their password. It includes real-time validation feedback to enhance user experience.
+The Formguard Project is a web application that demonstrates user registration functionality with client-side validation. This project allows users to sign up by entering their username, email, password, and confirming their password. It includes real-time validation feedback to enhance user experience.
 
 ## Features
 
@@ -35,7 +35,7 @@ To run this project locally, follow these steps:
 
 1. clone the repository:
    ``` bash
-   git clone https://github.com/Jiteshiyu/FormCheck.git
+   git clone https://github.com/Jiteshiyu/Formguard.git
    ```
 2. Navigate to the project directory.
   
@@ -57,5 +57,3 @@ Once the project is opened in a browser, you will see a sign-up form with fields
 Upon successful validation, an alert will inform the user of their successful registration.
 
 ---
-
-Thank you for checking out the Form Validation Project! We hope you find it useful and informative.
