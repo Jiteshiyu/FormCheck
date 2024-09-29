@@ -6,6 +6,10 @@ A user registration functionality with client-side validation.
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+## Demo
+
+You can view a live demo of the project [here](https://formguard.netlify.app/).
+
 ## Features
 
 - Real-time form validation with error messages for user inputs.
