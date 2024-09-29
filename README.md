@@ -1,8 +1,10 @@
 # Formguard
 
-## Overview
+A user registration functionality with client-side validation.
 
-The Formguard Project is a web application that demonstrates user registration functionality with client-side validation. This project allows users to sign up by entering their username, email, password, and confirming their password. It includes real-time validation feedback to enhance user experience.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Features
 
@@ -13,21 +15,9 @@ The Formguard Project is a web application that demonstrates user registration f
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
-
-## Project Layout
-```
-FormCheck/
-│
-├── public/
-│   ├── icon.png             # Favicon for the application
-│
-├── style.css                # Styles for the form layout and design
-├── app.js                   # JavaScript for form validation functionality
-└── index.html               # Main HTML file for the application
-```
+- HTML5: Structure and Content of the application.
+- CSS3: Styling and layout for a clean user interface.
+- JavaScript: Functionality of form client-side validation.
 
 ## Installation
 
@@ -37,23 +27,26 @@ To run this project locally, follow these steps:
    ``` bash
    git clone https://github.com/Jiteshiyu/Formguard.git
    ```
+   
 2. Navigate to the project directory.
   
 3. Open the `index.html` file in your web browser.
 
-## Form success
-![Form success](https://github.com/user-attachments/assets/3899b698-7df0-4d19-88c1-aa3b37326981)
-
-## Form failure
-![Form failure](https://github.com/user-attachments/assets/de913a4d-cb80-4dda-81b1-7bfce6de2e43)
-
 ## Usage
 
-Once the project is opened in a browser, you will see a sign-up form with fields for username, email, password, and confirm password. The form provides:
+Once the project is opened in a browser, you will see a sign-up form with fields for username, email, password, and confirm password.
+
+The form provides:
 
 - Real-time validation feedback if any field is incomplete or incorrectly filled.
 - Error messages to guide users to correct their input.
 
 Upon successful validation, an alert will inform the user of their successful registration.
 
----
+## Support
+Give a 🌟 to this repo if you liked it .
+
+Connect with me
+
+[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@JiteshKumar&color=success&logo=linkedin&style=for-the-badge&logoColor=white&colorA=blue)](https://www.linkedin.com/in/jitesh-kumar-93742a322/) [![Github](https://img.shields.io/static/v1.svg?label=follow&message=@Jiteshiyu&color=grey&logo=github&style=for-the-badge&logoColor=white&colorA=black)](https://www.github.com/Jiteshiyu/)
+
