@@ -1,4 +1,4 @@
-/* Reset styles */
+/* Reset Styles */
 * {
   margin: 0; 
   padding: 0; 
@@ -17,7 +17,7 @@ body {
   align-items: center; 
 }
 
-/* Container */
+/* Form Container Styles */
 .form-container {
   margin-top: 1rem; 
   padding: 0.7rem; 
@@ -30,7 +30,7 @@ body {
   transform: scale(1.015);
 }
 
-/* Heading */
+/* Heading Styles */
 .heading {
   color: #333; 
   text-align: center; 
@@ -38,13 +38,13 @@ body {
   margin-bottom: 0.7rem; 
 }
 
-/* Label */
+/* Label Styles */
 .label {
   font-size: 1.2rem; 
   margin-bottom: 0.3rem;
 }
 
-/* Input fields */
+/* Input Fields Styles */
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -57,13 +57,13 @@ input[type="tel"] {
   width: 100%; 
 }
 
-/* Buttons */
+/* Button Styles */
 .btn {
   padding: 0.3rem; 
   text-align: center; 
 }
 
-/* Submit button */
+/* Submit Button Styles */
 .submit-btn {
   color: #fff; 
   background-color: #333; 
@@ -74,12 +74,12 @@ input[type="tel"] {
   cursor: pointer; 
 }
 
-/* Submit button hover */
+/* Submit Button Hover Effect */
 .submit-btn:hover {
   color: #f00; 
 }
 
-/* Error message */
+/* Error Message Styles */
 .error-msg {
   color: #f00; 
   font-size: 1rem; 
