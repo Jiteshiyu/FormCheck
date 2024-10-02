@@ -11,10 +11,12 @@ body {
   background: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg")
     no-repeat center;
   background-size: cover;
+  background-position: center;
   height: 100vh; 
   display: flex; 
   justify-content: center; 
   align-items: center; 
+  overflow: hidden;
 }
 
 /* Form Container Styles */
