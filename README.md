@@ -8,7 +8,7 @@ A user registration functionality with client-side validation.
 
 ## Demo
 
-You can view a live demo of the project [here](https://formguard.netlify.app/).
+You can view a live demo of the project [Formguard](https://formguard.netlify.app/).
 
 ## Features
 
