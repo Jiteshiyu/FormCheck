@@ -22,8 +22,8 @@ body {
 /* Form Container Styles */
 .form-container {
   margin-top: 1rem; 
-  padding: 0.7rem; 
-  border-radius: 0.75rem; 
+  padding: 0.5rem; 
+  border-radius: 1.2rem; 
   background-color: #fff;
   transition: transform 0.3s ease;
 }
