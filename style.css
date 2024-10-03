@@ -22,7 +22,7 @@ body {
 /* Form Container Styles */
 .form-container {
   margin-top: 1rem; 
-  padding: 1.2rem; 
+  padding: 1rem; 
   border-radius: 0.75rem; 
   background-color: #fff;
   transition: transform 0.3s ease;
@@ -42,7 +42,7 @@ body {
 
 /* Label Styles */
 .label {
-  font-size: 1.2rem; 
+  font-size: 1rem; 
   margin-bottom: 0.3rem;
 }
 
