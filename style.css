@@ -22,7 +22,7 @@ body {
 /* Form Container Styles */
 .form-container {
   margin-top: 1rem; 
-  padding: 1rem; 
+  padding: 0.8rem; 
   border-radius: 0.75rem; 
   background-color: #fff;
   transition: transform 0.3s ease;
@@ -52,7 +52,7 @@ input[type="email"],
 input[type="password"],
 input[type="tel"] {
   margin-bottom: 0.5rem; 
-  padding: 0.5rem; 
+  padding: 0.3rem; 
   font-size: 1rem; 
   border: 1px solid #ccc; 
   border-radius: 0.3rem; 
